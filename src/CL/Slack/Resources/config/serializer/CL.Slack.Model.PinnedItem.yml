@@ -1,0 +1,10 @@
+CL\Slack\Model\PinnedItem:
+    properties:
+        type:
+            type: string
+        channel:
+            type: string
+        message:
+            type: CL\Slack\Model\PinnedItemMessage
+        created:
+            type: DateTime<'U'>

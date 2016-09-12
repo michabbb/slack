@@ -1,0 +1,16 @@
+CL\Slack\Model\PinnedItemMessage:
+    properties:
+        ts:
+            type: string
+        type:
+            type: string
+        channel:
+            type: CL\Slack\Model\SimpleChannel
+        user:
+            type: string
+        text:
+            type: string
+        permalink:
+            type: string
+        attachments:
+            type: string

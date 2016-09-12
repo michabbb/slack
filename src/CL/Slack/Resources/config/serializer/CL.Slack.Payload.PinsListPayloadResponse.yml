@@ -1,0 +1,5 @@
+CL\Slack\Payload\PinsListPayloadResponse:
+    properties:
+        items:
+            type: array<CL\Slack\Model\PinnedItem>
+
