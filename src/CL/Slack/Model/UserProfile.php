@@ -165,4 +165,11 @@ class UserProfile extends AbstractModel
     {
         return $this->skype;
     }
+
+	/**
+	 * @return null|string
+	 */
+	public function getDisplayName() {
+		return $this->displayName;
+	}
 }
