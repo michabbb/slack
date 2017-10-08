@@ -23,6 +23,11 @@ class UserProfile extends AbstractModel
      */
     private $realName;
 
+	/**
+	 * @var string|null
+	 */
+	private $displayName;
+
     /**
      * @var string|null
      */

@@ -2,6 +2,8 @@ CL\Slack\Model\UserProfile:
     properties:
         realName:
             type: string
+        displayName:
+            type: string
         firstName:
             type: string
         lastName:
